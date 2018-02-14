@@ -1,0 +1,19 @@
+{
+  "totalCount" : 0,
+  "totalCountFiltered" : 0,
+  "duration" : 6,
+  "indexDuration" : 59,
+  "requestDuration" : 2,
+  "searchUid" : "6dca9e0e-0a97-452c-974a-c7fe6da90e65",
+  "pipeline" : "External Search",
+  "apiVersion" : 2,
+  "warnings" : [ "The searchHub in the query parameters was overridden by the searchHub in the token." ],
+  "index" : "cache",
+  "triggers" : [ ],
+  "termsToHighlight" : { },
+  "phrasesToHighlight" : { },
+  "queryCorrections" : [ ],
+  "groupByResults" : [ ],
+  "results" : [ ],
+  "refinedKeywords" : [ ]
+}

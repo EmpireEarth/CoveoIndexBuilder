@@ -1,0 +1,20 @@
+{
+  "totalCount" : 0,
+  "totalCountFiltered" : 0,
+  "duration" : 72,
+  "indexDuration" : 63,
+  "requestDuration" : 68,
+  "searchUid" : "0c596445-6692-4e13-b672-0b7ee8f4e0cb",
+  "pipeline" : "External Search",
+  "apiVersion" : 2,
+  "warnings" : [ "The searchHub in the query parameters was overridden by the searchHub in the token." ],
+  "index" : "coveosearch-t344z4aeaiq5bhia6r4usvsomy-Indexer-1-sdd2cv7a3q76n5aul7h56icoim",
+  "indexToken" : "Y292ZW9zZWFyY2gtdDM0NHo0YWVhaXE1YmhpYTZyNHVzdnNvbXktSW5kZXhlci0xLXNkZDJjdjdhM3E3Nm41YXVsN2g1Nmljb2lt",
+  "triggers" : [ ],
+  "termsToHighlight" : { },
+  "phrasesToHighlight" : { },
+  "queryCorrections" : [ ],
+  "groupByResults" : [ ],
+  "results" : [ ],
+  "refinedKeywords" : [ ]
+}

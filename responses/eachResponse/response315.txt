@@ -1,0 +1,1187 @@
+{
+  "totalCount" : 0,
+  "only" : "Zuul",
+  "totalCountFiltered" : 0,
+  "duration" : 105,
+  "indexDuration" : 67,
+  "requestDuration" : 72,
+  "searchUid" : "a3dd3dc0-c5d9-4607-bc0a-259d4ac2b279",
+  "pipeline" : "External Search",
+  "apiVersion" : 2,
+  "warnings" : [ "The searchHub in the query parameters was overridden by the searchHub in the token." ],
+  "basicExpression" : null,
+  "advancedExpression" : null,
+  "largeExpression" : null,
+  "constantExpression" : "(@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(FAQ,\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))) (@sysrowid>4595000 @sysrowid<4596000)",
+  "disjunctionExpression" : "@permanentid=f4fcb9777b0e17cbdfcf4db3c4d4398bba92298e1cea47b9a75835752bf2 OR @permanentid=cee6a0f8b8173323669707e9049e9608d7f4319d38ac47b3b25a999a422d OR @permanentid=c75564c23fd249d65d2b54733e9e9452a77516d1076c6f936b062c0fd094 OR @permanentid=d3e51405ebf9140cd9d2ea2c351f1f5f3742ca6b216138fa6b0b9bdd3f1a OR @permanentid=c48a06512e3e5dd42a16fbc3cf336b8e49afc9ead611c26b266fbf61b0f4 OR @permanentid=9e3df78b20f123741582e635db5f101bc5b3f934c9707119bef9e31d1350 OR @permanentid=bc4be3fa16c81cbd46baf020ed000f81dcec4f31445090376e7190401a5a OR @permanentid=1b78832c848727bcaa79f66c04946fdfc71d728705a3bf9cf921bd4ce6f9 OR @permanentid=75f6a9bc754364ac883c3251eabe27e9fd1192113cc2406b6f7497aab4a1 OR @permanentid=2902bae49fa4d61e5cf7530425e0ca3a9ad8c568065769b6e7a6416fe84b",
+  "mandatoryExpression" : "@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(FAQ,\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))",
+  "userIdentities" : [ {
+    "name" : "anonymous",
+    "provider" : "Email Security Provider",
+    "type" : "User"
+  } ],
+  "rankingExpressions" : [ {
+    "expression" : "@title==\"Source @ Coveo — A technical blog by the fine people at Coveo\"",
+    "modifier" : -1000,
+    "isConstant" : true
+  }, {
+    "expression" : "@filetype==pdf @isattachment @title=\"Coveo for Sitecore\" @title=Documentation.pdf '",
+    "modifier" : -200,
+    "isConstant" : true
+  }, {
+    "expression" : "@cfspacekey=JsSearch",
+    "modifier" : -200,
+    "isConstant" : true
+  }, {
+    "expression" : "@cfspacekey=Salesforce",
+    "modifier" : -60,
+    "isConstant" : true
+  }, {
+    "expression" : "@cfspacekey=SitecoreV3",
+    "modifier" : -60,
+    "isConstant" : true
+  }, {
+    "expression" : "@cfspacekey=SearchREST",
+    "modifier" : -60,
+    "isConstant" : true
+  }, {
+    "expression" : "@source=answers",
+    "modifier" : -38,
+    "isConstant" : true
+  }, {
+    "expression" : "@uri=answers.coveo.com/questions/9131/",
+    "modifier" : -50,
+    "isConstant" : true
+  }, {
+    "expression" : "@source=\"Salesforce - Knowledge - Coveo Support\"",
+    "modifier" : -25,
+    "isConstant" : true
+  }, {
+    "expression" : "@source==(ohces65fr,ohces70fr,ohcloudfr)",
+    "modifier" : -400,
+    "isConstant" : true
+  }, {
+    "expression" : "@source==(ohces65en)",
+    "modifier" : -200,
+    "isConstant" : true
+  }, {
+    "expression" : "@source ohces70en",
+    "modifier" : -100,
+    "isConstant" : true
+  }, {
+    "expression" : "@source==(ohclouden,ohcloudfr)",
+    "modifier" : -10,
+    "isConstant" : true
+  }, {
+    "expression" : "@permanentid=f4fcb9777b0e17cbdfcf4db3c4d4398bba92298e1cea47b9a75835752bf2",
+    "modifier" : 500,
+    "isConstant" : false
+  }, {
+    "expression" : "@permanentid=cee6a0f8b8173323669707e9049e9608d7f4319d38ac47b3b25a999a422d",
+    "modifier" : 454,
+    "isConstant" : false
+  }, {
+    "expression" : "@permanentid=c75564c23fd249d65d2b54733e9e9452a77516d1076c6f936b062c0fd094",
+    "modifier" : 354,
+    "isConstant" : false
+  }, {
+    "expression" : "@permanentid=d3e51405ebf9140cd9d2ea2c351f1f5f3742ca6b216138fa6b0b9bdd3f1a",
+    "modifier" : 336,
+    "isConstant" : false
+  }, {
+    "expression" : "@permanentid=c48a06512e3e5dd42a16fbc3cf336b8e49afc9ead611c26b266fbf61b0f4",
+    "modifier" : 263,
+    "isConstant" : false
+  }, {
+    "expression" : "@permanentid=9e3df78b20f123741582e635db5f101bc5b3f934c9707119bef9e31d1350",
+    "modifier" : 254,
+    "isConstant" : false
+  }, {
+    "expression" : "@permanentid=bc4be3fa16c81cbd46baf020ed000f81dcec4f31445090376e7190401a5a",
+    "modifier" : 245,
+    "isConstant" : false
+  }, {
+    "expression" : "@permanentid=1b78832c848727bcaa79f66c04946fdfc71d728705a3bf9cf921bd4ce6f9",
+    "modifier" : 227,
+    "isConstant" : false
+  }, {
+    "expression" : "@permanentid=75f6a9bc754364ac883c3251eabe27e9fd1192113cc2406b6f7497aab4a1",
+    "modifier" : 227,
+    "isConstant" : false
+  }, {
+    "expression" : "@permanentid=2902bae49fa4d61e5cf7530425e0ca3a9ad8c568065769b6e7a6416fe84b",
+    "modifier" : 218,
+    "isConstant" : false
+  } ],
+  "topResults" : [ {
+    "expression" : "@permanentid=f4fcb9777b0e17cbdfcf4db3c4d4398bba92298e1cea47b9a75835752bf2",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 500
+  }, {
+    "expression" : "@permanentid=cee6a0f8b8173323669707e9049e9608d7f4319d38ac47b3b25a999a422d",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 454
+  }, {
+    "expression" : "@permanentid=c75564c23fd249d65d2b54733e9e9452a77516d1076c6f936b062c0fd094",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 354
+  }, {
+    "expression" : "@permanentid=d3e51405ebf9140cd9d2ea2c351f1f5f3742ca6b216138fa6b0b9bdd3f1a",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 336
+  }, {
+    "expression" : "@permanentid=c48a06512e3e5dd42a16fbc3cf336b8e49afc9ead611c26b266fbf61b0f4",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 263
+  }, {
+    "expression" : "@permanentid=9e3df78b20f123741582e635db5f101bc5b3f934c9707119bef9e31d1350",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 254
+  }, {
+    "expression" : "@permanentid=bc4be3fa16c81cbd46baf020ed000f81dcec4f31445090376e7190401a5a",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 245
+  }, {
+    "expression" : "@permanentid=1b78832c848727bcaa79f66c04946fdfc71d728705a3bf9cf921bd4ce6f9",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 227
+  }, {
+    "expression" : "@permanentid=75f6a9bc754364ac883c3251eabe27e9fd1192113cc2406b6f7497aab4a1",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 227
+  }, {
+    "expression" : "@permanentid=2902bae49fa4d61e5cf7530425e0ca3a9ad8c568065769b6e7a6416fe84b",
+    "matchQuery" : false,
+    "matchAdvancedQuery" : true,
+    "exclusive" : false,
+    "modifier" : 218
+  } ],
+  "executionReport" : {
+    "duration" : 60,
+    "children" : [ {
+      "description" : "Perform authentication",
+      "duration" : 1,
+      "configured" : {
+        "primary" : "CloudToken",
+        "secondary" : [ "sso" ],
+        "mandatory" : [ ]
+      },
+      "result" : {
+        "userIds" : [ {
+          "name" : "anonymous",
+          "kind" : "User",
+          "provider" : "Email Security Provider",
+          "infos" : { }
+        } ],
+        "roles" : [ "queryExecutor" ],
+        "queryRestrictions" : {
+          "pipeline" : null,
+          "filter" : "@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(\"FAQ\",\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))"
+        },
+        "userGroups" : [ "support Profile" ]
+      },
+      "children" : [ {
+        "description" : "Resolve authentication of provider: CloudToken",
+        "duration" : 1,
+        "result" : {
+          "userIds" : [ {
+            "name" : "anonymous",
+            "kind" : "User",
+            "provider" : "Email Security Provider",
+            "infos" : { }
+          } ],
+          "roles" : [ "queryExecutor" ],
+          "queryRestrictions" : {
+            "pipeline" : null,
+            "filter" : "@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(\"FAQ\",\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))"
+          },
+          "userGroups" : [ "support Profile" ]
+        }
+      }, {
+        "description" : "Merge authentications (if needed)",
+        "duration" : 0,
+        "result" : {
+          "userIds" : [ {
+            "name" : "anonymous",
+            "kind" : "User",
+            "provider" : "Email Security Provider",
+            "infos" : { }
+          } ],
+          "roles" : [ "queryExecutor" ],
+          "queryRestrictions" : {
+            "pipeline" : null,
+            "filter" : "@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(\"FAQ\",\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))"
+          },
+          "userGroups" : [ "support Profile" ]
+        }
+      } ]
+    }, {
+      "description" : "Resolve context",
+      "duration" : 0,
+      "result" : {
+        "userAgent" : {
+          "raw" : "python-requests/2.11.1",
+          "browser" : [ "python-requests" ],
+          "device" : [ ],
+          "os" : [ "" ]
+        },
+        "expressions" : {
+          "q" : {
+            "original" : "",
+            "parsed" : null
+          },
+          "aq" : {
+            "original" : "",
+            "parsed" : null
+          },
+          "cq" : {
+            "original" : "@sysrowid>4595000 AND @sysrowid<4596000",
+            "parsed" : "@sysrowid>4595000 @sysrowid<4596000"
+          },
+          "dq" : {
+            "original" : "",
+            "parsed" : null
+          },
+          "lq" : {
+            "original" : "",
+            "parsed" : null
+          }
+        },
+        "enableDuplicateFiltering" : false,
+        "filterField" : null,
+        "filterFieldRange" : 5,
+        "parentField" : null,
+        "childField" : null,
+        "searchHub" : "ExternalSearch",
+        "tab" : null,
+        "referrer" : null,
+        "recommendation" : null,
+        "locale" : null,
+        "lowercaseOperators" : false,
+        "context" : { },
+        "sortCriteria" : [ "relevancy" ]
+      }
+    }, {
+      "description" : "Resolve pipeline",
+      "duration" : 0,
+      "result" : {
+        "pipeline" : "External Search",
+        "splitTest" : null
+      }
+    }, {
+      "description" : "Resolve context",
+      "duration" : 0,
+      "result" : {
+        "userAgent" : {
+          "raw" : "python-requests/2.11.1",
+          "browser" : [ "python-requests" ],
+          "device" : [ ],
+          "os" : [ "" ]
+        },
+        "expressions" : {
+          "q" : {
+            "original" : "",
+            "parsed" : null
+          },
+          "aq" : {
+            "original" : "",
+            "parsed" : null
+          },
+          "cq" : {
+            "original" : "@sysrowid>4595000 AND @sysrowid<4596000",
+            "parsed" : "@sysrowid>4595000 @sysrowid<4596000"
+          },
+          "dq" : {
+            "original" : "",
+            "parsed" : null
+          },
+          "lq" : {
+            "original" : "",
+            "parsed" : null
+          }
+        },
+        "enableDuplicateFiltering" : false,
+        "filterField" : null,
+        "filterFieldRange" : 5,
+        "parentField" : null,
+        "childField" : null,
+        "searchHub" : "ExternalSearch",
+        "tab" : null,
+        "referrer" : null,
+        "recommendation" : null,
+        "locale" : null,
+        "lowercaseOperators" : false,
+        "context" : { },
+        "sortCriteria" : [ "relevancy" ]
+      }
+    }, {
+      "description" : "Apply 'queryParamOverride' rules",
+      "duration" : 0,
+      "applied" : [ "when $identity is \"anonymous\" then override query {\"enableQuerySyntax\": false}" ]
+    }, {
+      "description" : "Resolve context",
+      "duration" : 1,
+      "result" : {
+        "userAgent" : {
+          "raw" : "python-requests/2.11.1",
+          "browser" : [ "python-requests" ],
+          "device" : [ ],
+          "os" : [ "" ]
+        },
+        "expressions" : {
+          "q" : {
+            "original" : "",
+            "parsed" : null
+          },
+          "aq" : {
+            "original" : "",
+            "parsed" : null
+          },
+          "cq" : {
+            "original" : "@sysrowid>4595000 AND @sysrowid<4596000",
+            "parsed" : "@sysrowid>4595000 @sysrowid<4596000"
+          },
+          "dq" : {
+            "original" : "",
+            "parsed" : null
+          },
+          "lq" : {
+            "original" : "",
+            "parsed" : null
+          }
+        },
+        "enableDuplicateFiltering" : false,
+        "filterField" : null,
+        "filterFieldRange" : 5,
+        "parentField" : null,
+        "childField" : null,
+        "searchHub" : "ExternalSearch",
+        "tab" : null,
+        "referrer" : null,
+        "recommendation" : null,
+        "locale" : null,
+        "lowercaseOperators" : false,
+        "context" : { },
+        "sortCriteria" : [ "relevancy" ]
+      }
+    }, {
+      "description" : "Preprocess query expression",
+      "duration" : 0,
+      "result" : {
+        "type" : "cq",
+        "in" : "@sysrowid>4595000 @sysrowid<4596000",
+        "out" : "@sysrowid>4595000 @sysrowid<4596000"
+      },
+      "children" : [ {
+        "description" : "Apply 'thesaurus' rules",
+        "duration" : 0,
+        "applied" : [ ]
+      }, {
+        "description" : "Apply 'stop' rules",
+        "duration" : 0,
+        "applied" : [ ]
+      }, {
+        "description" : "Find and execute query extensions",
+        "duration" : 0
+      } ]
+    }, {
+      "description" : "Preprocess query expression",
+      "duration" : 0,
+      "result" : {
+        "type" : "filter",
+        "in" : "@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(\"FAQ\",\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))",
+        "out" : "@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(FAQ,\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))"
+      },
+      "children" : [ {
+        "description" : "Apply 'thesaurus' rules",
+        "duration" : 0,
+        "applied" : [ ]
+      }, {
+        "description" : "Apply 'stop' rules",
+        "duration" : 0,
+        "applied" : [ ]
+      }, {
+        "description" : "Find and execute query extensions",
+        "duration" : 0
+      } ]
+    }, {
+      "description" : "Preprocess query",
+      "duration" : 30,
+      "result" : {
+        "in" : {
+          "q" : null,
+          "aq" : null,
+          "lq" : null,
+          "cq" : "@sysrowid>4595000 @sysrowid<4596000",
+          "dq" : null,
+          "mq" : "@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(FAQ,\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))",
+          "timezone" : null,
+          "parentField" : null,
+          "childField" : null,
+          "filterField" : null,
+          "filterFieldRange" : 5,
+          "enableDuplicateFiltering" : false,
+          "enableWildcards" : false,
+          "enableQuestionMark" : false,
+          "enableDidYouMean" : false,
+          "enableCollaborativeRanking" : false,
+          "enableRankingInformation" : true,
+          "retrieveFirstSentences" : false,
+          "firstResult" : 0,
+          "numberOfResults" : 1000,
+          "excerptLength" : 200,
+          "summaryLength" : 0,
+          "includedFields" : null,
+          "excludedFields" : null,
+          "queryFunctions" : [ ],
+          "rankingFunctions" : [ ],
+          "sortCriteria" : [ "relevancy" ],
+          "rankingExpressions" : [ ],
+          "rankingOverrides" : [ ],
+          "groupByRequests" : [ ]
+        },
+        "out" : {
+          "q" : null,
+          "aq" : null,
+          "lq" : null,
+          "cq" : "(@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(FAQ,\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))) (@sysrowid>4595000 @sysrowid<4596000)",
+          "dq" : "@permanentid=f4fcb9777b0e17cbdfcf4db3c4d4398bba92298e1cea47b9a75835752bf2 OR @permanentid=cee6a0f8b8173323669707e9049e9608d7f4319d38ac47b3b25a999a422d OR @permanentid=c75564c23fd249d65d2b54733e9e9452a77516d1076c6f936b062c0fd094 OR @permanentid=d3e51405ebf9140cd9d2ea2c351f1f5f3742ca6b216138fa6b0b9bdd3f1a OR @permanentid=c48a06512e3e5dd42a16fbc3cf336b8e49afc9ead611c26b266fbf61b0f4 OR @permanentid=9e3df78b20f123741582e635db5f101bc5b3f934c9707119bef9e31d1350 OR @permanentid=bc4be3fa16c81cbd46baf020ed000f81dcec4f31445090376e7190401a5a OR @permanentid=1b78832c848727bcaa79f66c04946fdfc71d728705a3bf9cf921bd4ce6f9 OR @permanentid=75f6a9bc754364ac883c3251eabe27e9fd1192113cc2406b6f7497aab4a1 OR @permanentid=2902bae49fa4d61e5cf7530425e0ca3a9ad8c568065769b6e7a6416fe84b",
+          "mq" : "@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @sysfiletype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(FAQ,\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))",
+          "timezone" : null,
+          "parentField" : null,
+          "childField" : null,
+          "filterField" : null,
+          "filterFieldRange" : 5,
+          "enableDuplicateFiltering" : false,
+          "enableWildcards" : false,
+          "enableQuestionMark" : false,
+          "enableDidYouMean" : false,
+          "enableCollaborativeRanking" : false,
+          "enableRankingInformation" : true,
+          "retrieveFirstSentences" : false,
+          "firstResult" : 0,
+          "numberOfResults" : 1000,
+          "excerptLength" : 200,
+          "summaryLength" : 0,
+          "includedFields" : null,
+          "excludedFields" : null,
+          "queryFunctions" : [ ],
+          "rankingFunctions" : [ ],
+          "sortCriteria" : [ "relevancy" ],
+          "rankingExpressions" : [ {
+            "expression" : "@title==\"Source @ Coveo — A technical blog by the fine people at Coveo\"",
+            "modifier" : -1000,
+            "isConstant" : true
+          }, {
+            "expression" : "@filetype==pdf @isattachment @title=\"Coveo for Sitecore\" @title=Documentation.pdf '",
+            "modifier" : -200,
+            "isConstant" : true
+          }, {
+            "expression" : "@cfspacekey=JsSearch",
+            "modifier" : -200,
+            "isConstant" : true
+          }, {
+            "expression" : "@cfspacekey=Salesforce",
+            "modifier" : -60,
+            "isConstant" : true
+          }, {
+            "expression" : "@cfspacekey=SitecoreV3",
+            "modifier" : -60,
+            "isConstant" : true
+          }, {
+            "expression" : "@cfspacekey=SearchREST",
+            "modifier" : -60,
+            "isConstant" : true
+          }, {
+            "expression" : "@source=answers",
+            "modifier" : -38,
+            "isConstant" : true
+          }, {
+            "expression" : "@uri=answers.coveo.com/questions/9131/",
+            "modifier" : -50,
+            "isConstant" : true
+          }, {
+            "expression" : "@source=\"Salesforce - Knowledge - Coveo Support\"",
+            "modifier" : -25,
+            "isConstant" : true
+          }, {
+            "expression" : "@source==(ohces65fr,ohces70fr,ohcloudfr)",
+            "modifier" : -400,
+            "isConstant" : true
+          }, {
+            "expression" : "@source==(ohces65en)",
+            "modifier" : -200,
+            "isConstant" : true
+          }, {
+            "expression" : "@source ohces70en",
+            "modifier" : -100,
+            "isConstant" : true
+          }, {
+            "expression" : "@source==(ohclouden,ohcloudfr)",
+            "modifier" : -10,
+            "isConstant" : true
+          }, {
+            "expression" : "@permanentid=f4fcb9777b0e17cbdfcf4db3c4d4398bba92298e1cea47b9a75835752bf2",
+            "modifier" : 500,
+            "isConstant" : false
+          }, {
+            "expression" : "@permanentid=cee6a0f8b8173323669707e9049e9608d7f4319d38ac47b3b25a999a422d",
+            "modifier" : 454,
+            "isConstant" : false
+          }, {
+            "expression" : "@permanentid=c75564c23fd249d65d2b54733e9e9452a77516d1076c6f936b062c0fd094",
+            "modifier" : 354,
+            "isConstant" : false
+          }, {
+            "expression" : "@permanentid=d3e51405ebf9140cd9d2ea2c351f1f5f3742ca6b216138fa6b0b9bdd3f1a",
+            "modifier" : 336,
+            "isConstant" : false
+          }, {
+            "expression" : "@permanentid=c48a06512e3e5dd42a16fbc3cf336b8e49afc9ead611c26b266fbf61b0f4",
+            "modifier" : 263,
+            "isConstant" : false
+          }, {
+            "expression" : "@permanentid=9e3df78b20f123741582e635db5f101bc5b3f934c9707119bef9e31d1350",
+            "modifier" : 254,
+            "isConstant" : false
+          }, {
+            "expression" : "@permanentid=bc4be3fa16c81cbd46baf020ed000f81dcec4f31445090376e7190401a5a",
+            "modifier" : 245,
+            "isConstant" : false
+          }, {
+            "expression" : "@permanentid=1b78832c848727bcaa79f66c04946fdfc71d728705a3bf9cf921bd4ce6f9",
+            "modifier" : 227,
+            "isConstant" : false
+          }, {
+            "expression" : "@permanentid=75f6a9bc754364ac883c3251eabe27e9fd1192113cc2406b6f7497aab4a1",
+            "modifier" : 227,
+            "isConstant" : false
+          }, {
+            "expression" : "@permanentid=2902bae49fa4d61e5cf7530425e0ca3a9ad8c568065769b6e7a6416fe84b",
+            "modifier" : 218,
+            "isConstant" : false
+          } ],
+          "rankingOverrides" : [ ],
+          "groupByRequests" : [ ]
+        }
+      },
+      "children" : [ {
+        "description" : "Apply 'filter' rules",
+        "duration" : 0,
+        "applied" : [ ]
+      }, {
+        "description" : "Apply 'ranking' rules",
+        "duration" : 0,
+        "applied" : [ "boost `@title==\"Source @ Coveo — A technical blog by the fine people at Coveo\"` by -1000", "boost `@filetype==\"pdf\" @isattachment @title=\"Coveo for Sitecore\" @title=\"Documentation.pdf\"'` by -200", "boost `@cfspacekey=JsSearch` by -200", "boost `@cfspacekey=Salesforce` by -60", "boost `@cfspacekey=SitecoreV3` by -60", "boost `@cfspacekey=SearchREST` by -60", "boost `@source=answers` by -38", "boost `@uri=\"answers.coveo.com/questions/9131/\"` by -50", "boost `@source=\"Salesforce - Knowledge - Coveo Support\"` by -25", "boost `@source==(ohces65fr,ohces70fr,ohcloudfr)` by -400", "boost `@source==(ohces65en)` by -200", "boost `@source(ohces70en)` by -100", "boost `@source==(ohclouden,ohcloudfr)` by -10" ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@title==\"Source @ Coveo — A technical blog by the fine people at Coveo\"",
+          "out" : "@title==\"Source @ Coveo — A technical blog by the fine people at Coveo\""
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@filetype==\"pdf\" @isattachment @title=\"Coveo for Sitecore\" @title=\"Documentation.pdf\" '",
+          "out" : "@filetype==pdf @isattachment @title=\"Coveo for Sitecore\" @title=Documentation.pdf '"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@cfspacekey=JsSearch",
+          "out" : "@cfspacekey=JsSearch"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@cfspacekey=Salesforce",
+          "out" : "@cfspacekey=Salesforce"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@cfspacekey=SitecoreV3",
+          "out" : "@cfspacekey=SitecoreV3"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@cfspacekey=SearchREST",
+          "out" : "@cfspacekey=SearchREST"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@source=answers",
+          "out" : "@source=answers"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@uri=\"answers.coveo.com/questions/9131/\"",
+          "out" : "@uri=answers.coveo.com/questions/9131/"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@source=\"Salesforce - Knowledge - Coveo Support\"",
+          "out" : "@source=\"Salesforce - Knowledge - Coveo Support\""
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@source==(ohces65fr,ohces70fr,ohcloudfr)",
+          "out" : "@source==(ohces65fr,ohces70fr,ohcloudfr)"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@source==(ohces65en)",
+          "out" : "@source==(ohces65en)"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@source (ohces70en)",
+          "out" : "@source ohces70en"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Preprocess query expression",
+        "duration" : 0,
+        "result" : {
+          "type" : "other",
+          "in" : "@source==(ohclouden,ohcloudfr)",
+          "out" : "@source==(ohclouden,ohcloudfr)"
+        },
+        "children" : [ {
+          "description" : "Apply 'thesaurus' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Apply 'stop' rules",
+          "duration" : 0,
+          "applied" : [ ]
+        }, {
+          "description" : "Find and execute query extensions",
+          "duration" : 0
+        } ]
+      }, {
+        "description" : "Apply 'top' rules",
+        "duration" : 0,
+        "applied" : [ ]
+      }, {
+        "description" : "Apply 'topClicks' rules",
+        "duration" : 0
+      }, {
+        "description" : "Calling 'topClicks' reveal service",
+        "duration" : 29,
+        "config" : {
+          "model" : "generated_3924c635063f168edfb6be93ea7ba32f",
+          "engineVersion" : "~2|~3",
+          "commonFilter" : "(originlevel1=='ExternalSearch')",
+          "searchEventFilter" : "(originlevel1=='ExternalSearch')",
+          "customEventFilter" : "(originlevel1=='ExternalSearch')",
+          "exportPeriod" : "P1M",
+          "exportOffset" : "PT0S",
+          "refreshRate" : "P1W",
+          "customModelParameters" : [ ],
+          "modifier" : 500,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "useRefinedQuery" : false,
+          "maxResults" : 10,
+          "cacheMaximumAge" : "PT10S",
+          "customQueryParameters" : { }
+        },
+        "basicQueryKeywords" : [ ],
+        "largeQueryKeywords" : [ ],
+        "userId" : "anonymous",
+        "actionHistories" : [ ],
+        "userContext" : { },
+        "response" : {
+          "source" : "reveal",
+          "predictions" : [ {
+            "document" : "LmDxbS6Z9xDav4wI",
+            "score" : 55.0
+          }, {
+            "document" : "ZCCpCmzPsPtFñObñ",
+            "score" : 50.0
+          }, {
+            "document" : "KñWZ9Erd3sZVVaxR",
+            "score" : 39.0
+          }, {
+            "document" : "Idw2OIUGdkOWaMCA",
+            "score" : 37.0
+          }, {
+            "document" : "knlyKQ2kulñ8rW7x",
+            "score" : 29.0
+          }, {
+            "document" : "zNðuaHSrñksWBAW2",
+            "score" : 28.0
+          }, {
+            "document" : "raCEJ7q06Prp1qRG",
+            "score" : 27.0
+          }, {
+            "document" : "4cUUfJCfCQDKF3ep",
+            "score" : 25.0
+          }, {
+            "document" : "r7T0QBbuRY1p2rSj",
+            "score" : 25.0
+          }, {
+            "document" : "1AaYqsljTIQIUk8s",
+            "score" : 24.0
+          } ],
+          "refinedQueries" : [ ]
+        }
+      }, {
+        "description" : "Evaluate 'topClicks' reveal response",
+        "duration" : 1,
+        "topResults" : [ {
+          "expression" : "@permanentid=f4fcb9777b0e17cbdfcf4db3c4d4398bba92298e1cea47b9a75835752bf2",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 500
+        }, {
+          "expression" : "@permanentid=cee6a0f8b8173323669707e9049e9608d7f4319d38ac47b3b25a999a422d",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 454
+        }, {
+          "expression" : "@permanentid=c75564c23fd249d65d2b54733e9e9452a77516d1076c6f936b062c0fd094",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 354
+        }, {
+          "expression" : "@permanentid=d3e51405ebf9140cd9d2ea2c351f1f5f3742ca6b216138fa6b0b9bdd3f1a",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 336
+        }, {
+          "expression" : "@permanentid=c48a06512e3e5dd42a16fbc3cf336b8e49afc9ead611c26b266fbf61b0f4",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 263
+        }, {
+          "expression" : "@permanentid=9e3df78b20f123741582e635db5f101bc5b3f934c9707119bef9e31d1350",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 254
+        }, {
+          "expression" : "@permanentid=bc4be3fa16c81cbd46baf020ed000f81dcec4f31445090376e7190401a5a",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 245
+        }, {
+          "expression" : "@permanentid=1b78832c848727bcaa79f66c04946fdfc71d728705a3bf9cf921bd4ce6f9",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 227
+        }, {
+          "expression" : "@permanentid=75f6a9bc754364ac883c3251eabe27e9fd1192113cc2406b6f7497aab4a1",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 227
+        }, {
+          "expression" : "@permanentid=2902bae49fa4d61e5cf7530425e0ca3a9ad8c568065769b6e7a6416fe84b",
+          "isConstant" : false,
+          "matchQuery" : false,
+          "matchAdvancedQuery" : true,
+          "exclusive" : false,
+          "modifier" : 218
+        } ],
+        "refinedQueries" : [ ]
+      }, {
+        "description" : "Apply 'recommendation' rules",
+        "duration" : 0
+      }, {
+        "description" : "Apply 'rankingweight' rules",
+        "duration" : 0,
+        "applied" : [ ]
+      } ]
+    }, {
+      "description" : "Send query to index",
+      "duration" : 72,
+      "result" : {
+        "in" : {
+          "BasicExpression" : "@uri",
+          "AdvancedExpression" : null,
+          "ConstantExpression" : "(@source==(AnswersCloud,CoveoOnYouTube,CoveoTaggedSitecoreStackExchange,JsSearchRef,ohces65en,ohces65fr,ohces70en,ohces70fr,ohclouden,ohcloudfr,TechBlog,\"Salesforce Secured Items\") OR (@source==(developers) @filetype==(cfpage,pdf) NOT @cfspacekey==(JsSearch,Salesforce)) OR ((@source==\"Salesforce Public Items\" NOT @sfisvisibleinpkb=false) OR (@objecttype==(FAQ,\"How To\",\"KB Article\",\"Best Practice\") NOT @sfisvisibleinpkb=false))) (@rowid>4595000 @rowid<4596000)",
+          "DisjunctionExpression" : "@permanentid=f4fcb9777b0e17cbdfcf4db3c4d4398bba92298e1cea47b9a75835752bf2 OR @permanentid=cee6a0f8b8173323669707e9049e9608d7f4319d38ac47b3b25a999a422d OR @permanentid=c75564c23fd249d65d2b54733e9e9452a77516d1076c6f936b062c0fd094 OR @permanentid=d3e51405ebf9140cd9d2ea2c351f1f5f3742ca6b216138fa6b0b9bdd3f1a OR @permanentid=c48a06512e3e5dd42a16fbc3cf336b8e49afc9ead611c26b266fbf61b0f4 OR @permanentid=9e3df78b20f123741582e635db5f101bc5b3f934c9707119bef9e31d1350 OR @permanentid=bc4be3fa16c81cbd46baf020ed000f81dcec4f31445090376e7190401a5a OR @permanentid=1b78832c848727bcaa79f66c04946fdfc71d728705a3bf9cf921bd4ce6f9 OR @permanentid=75f6a9bc754364ac883c3251eabe27e9fd1192113cc2406b6f7497aab4a1 OR @permanentid=2902bae49fa4d61e5cf7530425e0ca3a9ad8c568065769b6e7a6416fe84b",
+          "FirstResult" : 0,
+          "NumberOfResults" : 1000,
+          "SortBy" : "Relevancy",
+          "SortByFields" : [ ],
+          "CustomFilter" : null,
+          "CustomFilterRange" : 5,
+          "ExcerptLength" : 200,
+          "SummaryLength" : 0,
+          "TimeZoneOffset" : null,
+          "EnableWildcards" : false,
+          "EnableQuestionMark" : false,
+          "EnableDidYouMean" : false,
+          "EnableCollaborativeRanking" : false,
+          "DisableLogging" : false,
+          "ParentFieldName" : null,
+          "ChildFieldName" : null,
+          "EnableDuplicateFiltering" : false,
+          "ExtractFirstSentences" : false,
+          "LoadTagsOnResults" : true,
+          "EnableRankingInformation" : true,
+          "TimeZone" : null,
+          "ParentFieldName" : null,
+          "ChildFieldName" : null,
+          "TimeOut" : null,
+          "RankingExpressions" : [ {
+            "Expression" : "@title==\"Source @ Coveo — A technical blog by the fine people at Coveo\"",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -1000
+          }, {
+            "Expression" : "@filetype==pdf @isattachment @title=\"Coveo for Sitecore\" @title=Documentation.pdf '",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -200
+          }, {
+            "Expression" : "@cfspacekey=JsSearch",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -200
+          }, {
+            "Expression" : "@cfspacekey=Salesforce",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -60
+          }, {
+            "Expression" : "@cfspacekey=SitecoreV3",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -60
+          }, {
+            "Expression" : "@cfspacekey=SearchREST",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -60
+          }, {
+            "Expression" : "@source=answers",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -38
+          }, {
+            "Expression" : "@uri=answers.coveo.com/questions/9131/",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -50
+          }, {
+            "Expression" : "@source=\"Salesforce - Knowledge - Coveo Support\"",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -25
+          }, {
+            "Expression" : "@source==(ohces65fr,ohces70fr,ohcloudfr)",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -400
+          }, {
+            "Expression" : "@source==(ohces65en)",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -200
+          }, {
+            "Expression" : "@source ohces70en",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -100
+          }, {
+            "Expression" : "@source==(ohclouden,ohcloudfr)",
+            "IsConstant" : true,
+            "IsDeterministic" : true,
+            "Modifier" : -10
+          }, {
+            "Expression" : "@permanentid=f4fcb9777b0e17cbdfcf4db3c4d4398bba92298e1cea47b9a75835752bf2",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 500
+          }, {
+            "Expression" : "@permanentid=cee6a0f8b8173323669707e9049e9608d7f4319d38ac47b3b25a999a422d",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 454
+          }, {
+            "Expression" : "@permanentid=c75564c23fd249d65d2b54733e9e9452a77516d1076c6f936b062c0fd094",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 354
+          }, {
+            "Expression" : "@permanentid=d3e51405ebf9140cd9d2ea2c351f1f5f3742ca6b216138fa6b0b9bdd3f1a",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 336
+          }, {
+            "Expression" : "@permanentid=c48a06512e3e5dd42a16fbc3cf336b8e49afc9ead611c26b266fbf61b0f4",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 263
+          }, {
+            "Expression" : "@permanentid=9e3df78b20f123741582e635db5f101bc5b3f934c9707119bef9e31d1350",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 254
+          }, {
+            "Expression" : "@permanentid=bc4be3fa16c81cbd46baf020ed000f81dcec4f31445090376e7190401a5a",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 245
+          }, {
+            "Expression" : "@permanentid=1b78832c848727bcaa79f66c04946fdfc71d728705a3bf9cf921bd4ce6f9",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 227
+          }, {
+            "Expression" : "@permanentid=75f6a9bc754364ac883c3251eabe27e9fd1192113cc2406b6f7497aab4a1",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 227
+          }, {
+            "Expression" : "@permanentid=2902bae49fa4d61e5cf7530425e0ca3a9ad8c568065769b6e7a6416fe84b",
+            "IsConstant" : false,
+            "IsDeterministic" : true,
+            "Modifier" : 218
+          } ],
+          "RankingOverrides" : [ ],
+          "Facets" : [ ]
+        },
+        "out" : {
+          "logEntryId" : "212383436536552259",
+          "serverTime" : 67,
+          "requestTime" : 72,
+          "totalCount" : 0,
+          "totalCountFiltered" : 0
+        }
+      }
+    }, {
+      "description" : "Postprocess results",
+      "duration" : 0
+    }, {
+      "description" : "Resolve triggers",
+      "duration" : 0,
+      "children" : [ {
+        "description" : "Apply 'trigger' rules",
+        "duration" : 0,
+        "applied" : [ ]
+      } ]
+    } ]
+  },
+  "index" : "coveosearch-t344z4aeaiq5bhia6r4usvsomy-Indexer-1-sdd2cv7a3q76n5aul7h56icoim",
+  "indexToken" : "Y292ZW9zZWFyY2gtdDM0NHo0YWVhaXE1YmhpYTZyNHVzdnNvbXktSW5kZXhlci0xLXNkZDJjdjdhM3E3Nm41YXVsN2g1Nmljb2lt",
+  "triggers" : [ ],
+  "termsToHighlight" : { },
+  "phrasesToHighlight" : { },
+  "queryCorrections" : [ ],
+  "groupByResults" : [ ],
+  "results" : [ ],
+  "refinedKeywords" : [ ]
+}
